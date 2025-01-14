@@ -93,12 +93,12 @@ export default function Home() {
                 >
                   Sobre nós
                 </button>
-                <button
+{/*                 <button
                   onClick={() => scrollToSection("parceiros")}
                   className="text-white hover:text-gray-200 transition-colors text-sm font-medium"
                 >
                   Parceiros
-                </button>
+                </button> */}
                 <button
                   onClick={() => scrollToSection("solucoes")}
                   className="text-white hover:text-gray-200 transition-colors text-sm font-medium"
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="parceiros" className="py-16">
+{/*         <section id="parceiros" className="py-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">Parceiros</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[1, 2, 3, 4].map((partner) => (
@@ -148,7 +148,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         <section id="solucoes" className="py-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">Soluções</h2>
